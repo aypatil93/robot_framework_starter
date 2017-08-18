@@ -7,7 +7,7 @@ Resource       resource.robot
 
 *** Variables ***
 ${SERVER}        setthis.com
-${BROWSER}       firefox
+${BROWSER}       gc
 ${DELAY}         0
 ${VALID USER}    tester
 ${VALID PASSWD}  testing

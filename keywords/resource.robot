@@ -8,9 +8,9 @@ Library           Selenium2Library
 Library        lib/utils.py
 
 *** Variables ***
-${SERVER}         ferronrsmith.github.io/robot_framework/
-${BROWSER}        Firefox
-${DELAY}          0
+${SERVER}         qat-avod-web.crackle.com
+${BROWSER}        gc
+${DELAY}          20
 ${VALID USER}     demo
 ${VALID PASSWORD}    mode
 ${LOGIN URL}      http://${SERVER}/
@@ -23,6 +23,7 @@ Open Browser To Login Page
     Maximize Browser Window
     Set Selenium Speed    ${DELAY}
     Login Page Should Be Open
+
 
 Login Page Should Be Open
     Title Should Be    Login Page
